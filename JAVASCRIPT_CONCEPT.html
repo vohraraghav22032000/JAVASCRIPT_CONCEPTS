@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raghav</title>
+     
+    <link rel="stylesheet" type="text/css" href="JAVASCRIPT_CONCEPT.css">
+
+
+    <style>
+        button{
+            width:150px;
+            height:150px;
+            margin:20px;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+
+
+<body style = "background-color: yellowgreen;">
+
+    
+
+<section>
+    <h2>when any key is pressed  ,, it's code is displayed in console </h2>
+    
+</section>
+
+    
+    <h1>hello!!</h1>
+    <h2 style="color: magenta;">welcome always!!</h2>
+    <h2 >learn javascript here</h2>
+
+    <div>
+
+    <img id = "banner"  class= "spider" src="https://media.gettyimages.com/photos/english-country-garden-on-overcast-summers-day-picture-id1004164882?s=612x612"
+     style =" border : 5px dashed blue; " >
+     
+    <img id = "banner2"  class= "spider2" src="https://cdn.mos.cms.futurecdn.net/8HQMVAtZ2LsatZQeWMscpF-1200-80.jpg"
+    style =" border : 5px dashed  aquamarine; " >
+    
+    <img id = "banner3"  class= "spider3" src="https://image.shutterstock.com/image-photo/beautiful-sunset-tropical-beach-palm-260nw-1716193708.jpg"
+     style =" border : 5px dashed red; " >
+ 
+     </div>
+    <h4 class='purple'>get well soon!!!</h4>
+     
+    <h3>INDIA ROCKS!!!</h3>
+     <p class = "spider">Lorem ipsum dolor sit amet consectetur adipisicing <b>elit. Fugiat velit distinctio veniam repellat eveniet sint architecto minima dolore! 
+         A eligendi officiis rerum et ab inventore itaque vel</b> molestias porro ducimus.
+        </p>
+
+     <p> 
+         second p :: 
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda esse labore tenetur deserunt cum mollitia quisquam ducimus amet omnis ea,
+          explicabo odit dolor. Animi quia vitae aspernatur amet earum itaque.
+        </p>    
+
+         <a href="https://img.etimg.com/thumb/msid-75708946,width-640,resizemode-4,imgsize-200977/bidding-for-burjs-external-lights.jpg">
+            <i>view <b>burj</b> khalifa</i></a>
+          <p class= "material">
+            the main body of matter in a manuscript, book, newspaper, etc., as distinguished from notes, appendixes, headings, illustrations, etc.
+            the original words of an author or speaker, as opposed to a translation, paraphrase, commentary, or the like:
+            The newspaper published the whole text of the speech.
+            the actual <b>wording of anything written or printed:
+            You have not kept to the text of my remarks.
+            any of the various forms in which a writing exists:
+            The text is a </b>medieval transcription.
+            the wording adopted by an editor as representing the original words of an author:
+            the authoritative text of Catullus.
+          </p>
+     <!--
+         in console in JS ,, const banner =  document.getElementById('banner') -- results in all information about id
+         //here all information about id banner is displayed in console
+         i.e about image
+
+         again using  const banner,,,, in console if we have
+
+         console.dir(banner) //  this will display all properties assosiated with object (of ID BANNER)
+         //now ,the id banner of image is object in the window
+
+         //i.e  ,, this results in fetching the object with properties that represents some element on the page with help of ID
+
+
+         //in all these , DOM object is selecting the element with help of id
+         //this is used using DOM object model :: no html , css is required to aceess the properties of element
+
+     -->
+
+     <!--
+         Similarly,  const allImages =  document.getElementByTagName('img')  :: results in all html collections  ( in an array format ,, but not array) describing about the
+         all the elements of object image  
+
+         HTML collection  --  not an array
+         
+         
+         allImages.map ---- other function does not work with this html collection
+
+         but
+         allImages.length  -- display the no of objects of images in console
+     
+     
+        -->
+
+
+        <!--
+
+            //this will display all the src links of images in console 
+            this is in js code
+            not an array
+
+const present = document.getElementsByTagName('img');
+
+for(let img of present)      
+{
+    console.log(img.src);
+}
+
+        -->
+
+        
+    
+<!--
+    to link our js file ,, we have  to include script
+-->
+<ul>
+    <li>stands for <strong>Hyper Text Markup Language</strong></li>
+    <li id="daysss">Lots of tags
+        <ul>
+            <li>Boilerplate
+                <ol>
+                    <li>Doctype</li>
+                    <li>HTML</li>
+                    <li>Head
+                        <ol>
+                            <li>Title</li>
+                        </ol></li>
+                    <li>Body</li>
+                </ol></li>
+            <li>Headings</li>
+            <li align = center>Paragraph</li>
+            <li><em>em</em></li>
+            <li class="night"><strong>strong</strong></li>
+        </ul>
+    </li>
+</ul>
+
+<hr id="id_three"></hr>
+
+<h1>POKEMON'S IMAGES</h1>
+<section id="container"></section>
+
+
+    
+
+<input type = "checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" >
+
+<h1>INDIA HAVE 29 STATES</h1>
+
+<hr id="id_three"></hr>
+
+<section>BUTTONS USING HTML
+    <section>
+<button onclick = "alert('what do you want??!!'); alert('please say something')">CLICK HERE</button>
+<button ondblclick = "alert('YOU DOUBLE CLICKED HERE')">DOUBLE CLICK HERE</button>
+
+     </section>
+</section>
+
+<section>
+    BUTTONS USING JAVASCRIPT
+    <section>
+        <span><button id = "id_one">ADVANCED VERSION</button>--not working with javascript</span>
+
+    </section>
+    <button id = "id_two">ANOTHER ADVANCED VERSION</button>
+    
+</section>
+
+
+
+<section>
+    <h1>welcome RAGHAV</h1>
+    <h2 class = "border">click below to change background-color</h2>
+    <button id="id_four">click here to change background-color of this webpage</button>
+    <sectoin>
+       
+       <span> <h1>Orientation of color :  <p id = "id_five"><p> </h1> </span>
+        
+    </sectoin>
+   
+
+</section>
+
+<hr id="id_three"></hr>
+
+<section>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    <button class="class_one">CLICK ME TO GET BEAUTIFUL COLOURS INSIDE THIS BOX REPEATEDLY!!</button>
+    
+    
+</section>
+
+
+<hr id="id_three"></hr>
+
+<button id="id_six" class="class_one border">CLICK ME TO GET MOUSEEVENT IN CONSOLE!!</button>
+
+<section>
+    <h1>write text in given input and get text in console according to pressing in keyboard</h1>
+    <h2>when key is down for text ,, keyboardevents are displayed in console</h2>
+    <input type="text" id = "id_seven">
+</section>
+
+<section>
+    <h2>when key is down for text ,, key and key's code are displayed in console</h2>
+    <input type="text" id = "id_eight">
+</section>
+
+
+
+<hr id="id_three"></hr>
+
+<section>
+
+<h1>FORM EVENTS</h1>
+
+<h2>username and password is listed in tweets </h2>
+
+<form action="/dogs" id= "tweetForm" >
+    <section>
+        PLEASE ENTER USERNAME :
+    <input type="text" name="username" placeholder="username">
+    </section>
+
+    <section>
+        PLEASE ENTER PASSWORD :
+        <input type="password" name = "tweet" placeholder="password">
+    </section>
+    
+    <section>
+        <button class = "class_one" >REGISTER HERE</button>
+    </section>
+</form>
+
+<h2>TWEETS : </h2>
+<h3>also ,, when you pressed this list members ,,  it will be deleted from this list</h3>
+<ul id = "tweets">
+    <li>this is li element</li>
+    <li>this is li element</li>
+    <li>this is li element</li>
+    
+    <!--also,  this paragraph also get deleted after pressing ,, as it comes under tweetsContainer which has id tweets ,, of this ul-->
+    <p>this text is paragraph and gets deleted if this text is clicked</p>
+
+</ul>
+
+</section>
+
+
+<section>
+    <h1>ANOTHER INPUT BOX BELOW : </h1>
+    <h3>whenever change is observed in text below and enter button is pressed :: it contains text in console</h3>
+    <h3>also :: it comes under INPUT EVENT</h3>
+    <input type = "text" id= "id_ten">
+</section>
+
+
+<section>
+    <h1>whatever you enter in below text box :: it reflects in given heading</h1>
+
+    <input type = "text" id ="id_twelve">
+    <h2  id = "id_eleven"></h2>
+
+</section>
+
+
+<hr id="id_three"></hr>
+
+
+<!--
+    if we have two nested tags and alert text is there on both the tags on onclick
+    then text for alert depends on child tag as well as parent tag
+
+    //this is event bubbling
+
+    //nested tags also show there properties when same task is given :: e.g onclick
+
+-->
+
+<h1>EVENT BUBBLING</h1>
+
+<section onclick="alert('this all comes under section ,, now section is clicked')">
+
+<p  class = "classs_three" onclick="alert('Paragraph is clicked')">
+    this is paragraph and if text of paragraphis clicked ,, alert sign will be there.........
+    //if button is clicked all alert will be there which are parent of this button element
+      
+    <button onclick="alert('NOW BUTTON IS CLICKED')">CLICK HERE TO GET ALERT SIGN</button>
+</p>
+</section>
+
+<!--
+    //to prevent this bubbling
+-->
+
+<section id="id_thirteen" >
+    to prevent this event bubbling
+    this section will be hide after pressing this text and if button is pressed then background-colorwill be changed 
+    <button id="id_fourteen" class = "class_one">click here</button>
+</section>
+
+
+
+<hr id="id_three"></hr>
+
+
+<script src="JAVASCRIPT_CONCEPT.js"></script>
+
+
+
+</body>
+</html>

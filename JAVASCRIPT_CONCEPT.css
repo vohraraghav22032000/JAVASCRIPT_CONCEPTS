@@ -1,0 +1,67 @@
+
+#banner{
+    width:30%;
+    height: 30%;
+    
+}
+img{
+    margin: 5%  20%;
+}
+p{
+    letter-spacing: 0.7rem;
+	padding-left: 10%;
+	padding-right: 10%;
+	color:aquamarine;
+}
+p:nth-of-type(2){
+    color:blueviolet;
+}
+
+h2{
+    font-size: large;
+    color: aquamarine;
+    background-color: royalblue;
+}
+.purple{
+    color:rgb(255, 127, 127);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.border{
+    border: 3px dashed red ;
+}
+
+/*for- pokemon--sprites*/
+.pokemon{
+    display: inline-block;
+    text-align: center;
+}
+.pokemon img{
+    display:block;
+    background-color: blueviolet;
+}
+
+#id_three{
+  border :  10px black solid;
+}
+
+.class_one{
+    border : 6px solid blue;
+    border-radius: 3rem;
+}
+
+h1{
+text-align: center;
+color:darkred;
+border:  4px solid rgb(255, 127, 127) ;
+}
+
+.class_three{
+    letter-spacing:normal;
+    font-size: large;
+    font-style: oblique;
+    text-decoration-color: black ;
+    text-align: center;
+
+}
